@@ -2,6 +2,7 @@
 /**
  * @package     Joomla.Plugin
  * @subpackage  System.Analytics
+ *
  * @copyright   Copyright (C) 2013 AtomTech, Inc. All rights reserved.
  * @license     GNU General Public License version 2 or later; see LICENSE.txt
  */

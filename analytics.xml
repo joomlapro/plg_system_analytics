@@ -13,11 +13,14 @@
 	<authorUrl>http://www.atomtech.com.br</authorUrl>
 	<version>1.0</version>
 	<description>PLG_SYSTEM_ANALYTICS_XML_DESCRIPTION</description>
+	<scriptfile>script.php</scriptfile>
 	<files>
 		<filename plugin="analytics">analytics.php</filename>
 		<filename>index.html</filename>
 	</files>
 	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_system_analytics.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_system_analytics.sys.ini</language>
 		<language tag="pt-BR">pt-BR/pt-BR.plg_system_analytics.ini</language>
 		<language tag="pt-BR">pt-BR/pt-BR.plg_system_analytics.sys.ini</language>
 	</languages>
