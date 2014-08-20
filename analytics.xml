@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<extension version="3.1" type="plugin" group="system" method="upgrade">
+<extension
+	version="3.1"
+	type="plugin"
+	group="system"
+	method="upgrade">
 	<name>plg_system_analytics</name>
 	<author>Bruno Batista</author>
 	<creationDate>May 2013</creationDate>
@@ -20,8 +24,23 @@
 	<config>
 		<fields name="params">
 			<fieldset name="basic">
-				<field name="code" type="text" size="40" class="inputbox input-small" filter="string" required="true" label="PLG_SYSTEM_ANALYTICS_FIELD_CODE_LABEL" description="PLG_SYSTEM_ANALYTICS_FIELD_CODE_DESC" />
-				<field name="domain" type="text" size="40" class="inputbox" filter="string" label="PLG_SYSTEM_ANALYTICS_FIELD_DOMAIN_LABEL" description="PLG_SYSTEM_ANALYTICS_FIELD_DOMAIN_DESC" />
+				<field
+					name="code"
+					type="text"
+					class="inputbox input-small"
+					label="PLG_SYSTEM_ANALYTICS_FIELD_CODE_LABEL"
+					description="PLG_SYSTEM_ANALYTICS_FIELD_CODE_DESC"
+					filter="string"
+					size="40"
+					required="true" />
+				<field
+					name="domain"
+					type="text"
+					class="inputbox"
+					label="PLG_SYSTEM_ANALYTICS_FIELD_DOMAIN_LABEL"
+					description="PLG_SYSTEM_ANALYTICS_FIELD_DOMAIN_DESC"
+					size="40"
+					filter="string" />
 			</fieldset>
 		</fields>
 	</config>
